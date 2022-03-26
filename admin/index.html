@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>T.R.U</title>
+    <link rel="shortcut icon" href="./access/images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./access/bootstrap/trung_bootstrap.css" />
+    <link rel="stylesheet" href="./access/css/index.css" />
+    <script src="https://kit.fontawesome.com/9b8e4b3470.js" crossorigin="anonymous"></script>
+    <script src="./access/js/cursor.js"></script>
+  </head>
+  <body>
+    <div trung="form">
+      <form method="post">
+        <div class="form__title">
+          <p>Đăng ký</p>
+        </div>
+        <div class="form_trung fullname">
+          <label for="fullname">Họ và tên</label>
+          <input id="fullname" type="text">
+          <div class="form__feedback">
+            <p>Thành công</p>
+          </div>
+        </div>
+        <div class="form_trung account">
+          <label for="account">Tài khoản</label>
+          <input id="account" type="text">
+          <div class="form__feedback">
+            <p>Thành công</p>
+          </div>
+        </div>
+        <div class="form_trung password">
+          <label for="password">Mật khâu</label>
+          <div class="input">
+            <input id="password" type="password">
+            <div class="check_form">
+              <i  class="fa-solid fa-eye"></i>
+              <i  class="fa-solid fa-eye-slash"></i>
+            </div>
+          </div>
+          <div class="form__feedback">
+            <p>Thành công</p>
+          </div>
+        </div>
+        <div class="form_trung repassword">
+          <label for="repassword">Nhập lại mật khâu</label>
+          <input id="repassword" type="password">
+          <div class="form__feedback">
+            <p>Thành công</p>
+          </div>
+        </div>
+        <div class="form_trung email">
+          <label for="email">Gmail / Email</label>
+          <input id="email" type="email" name="" id="" placeholder="VD: abc123@gmail.com">
+          <div class="form__feedback">
+            <p>Thành công</p>
+          </div>
+        </div>
+        <div class="form__button">
+          <button type="submit" class="btn btn-danger dangky" >Đăng ký</button>
+          <button type="submit" class="btn btn-success dangnhap">Đăng nhập</button>
+        </div>
+        <div>
+          <p class="login">Bạn đã có tài khoản ?</p>
+          <p class="login dangky">Bạn chưa có tài khoản ?</p>
+        </div>
+      </form>
+    </div>
+    <script src="./access/js/index.js"></script>
+    <script src="./access/js/login.js"></script>
+  </body>
+</html>

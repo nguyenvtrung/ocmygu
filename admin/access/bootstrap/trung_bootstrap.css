@@ -1,0 +1,112 @@
+:root
+{
+    /* color */
+    --success : #198754;
+    --danger : #bb2d3b;
+    --info : #0dcaf0;
+    --dark : #212529;
+    --warning : #ffc107;
+    --secondary : #6c757d;
+    --primary : #0d6efd;
+}
+.btn
+{
+    border: unset;
+    padding: 5px 11px;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    cursor: pointer;
+    transition: .5s all ease;
+    display: inline-block;
+}
+
+
+
+.btn-danger
+{
+    background-color: var(--danger);
+    color: #fff;
+}
+.btn-info
+{
+    background-color: var(--info);
+    color: #000;
+}
+.btn-primary
+{
+    background-color: var(--primary);
+    color: #fff;
+}
+.btn-warning
+{
+    background-color: var(--warning);
+    color: #000;
+}
+.btn-secondary
+{
+    background-color: var(--secondary);
+    color: #fff;
+}
+.btn-dark
+{
+    background-color: var(--dark);
+    color: #fff;
+}
+.btn-success
+{
+    background-color: var(--success);
+    color: #fff;
+}
+.btn-danger:hover
+{
+    background-color: #bb2d3b;
+    color: #fff;
+}
+
+input
+{
+    width: 100%;
+    border-bottom: 3px solid #3333;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    height: 30px;
+    outline: none;
+    box-shadow: none;
+}
+input:focus-visible
+{
+    outline: none;
+}
+
+.input-danger
+{
+    border-bottom: 3px solid var(--danger);
+}
+.input-info
+{
+    border-bottom: 3px solid var(--info);
+}
+.input-warning
+{
+    border-bottom: 3px solid var(--warning);
+}
+.input-dark
+{
+    border-bottom: 3px solid var(--dark);
+}
+.input-primary
+{
+    border-bottom: 3px solid var(--primary);
+}
+.input-secondary
+{
+    border-bottom: 3px solid var(--secondary);
+}
+.input-success
+{
+    border-bottom: 3px solid var(--success);
+}
+
