@@ -11,6 +11,7 @@
     --column: 2;
     --map-w: 90vw;
   }
+  .infomation__phone,
   .infomation__home {
     display: none;
   }
