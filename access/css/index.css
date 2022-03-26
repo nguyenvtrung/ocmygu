@@ -212,6 +212,8 @@ footer
   right: 0;
   top: 50%;
   transform: translateY(-50%);
+  z-index: 782003;
+  
 }
 .map
 {
@@ -221,6 +223,7 @@ footer
   border-bottom: 5px solid #333;
   border-top: 5px solid #333;
   border-radius: 10px 0 0 10px;
+  z-index: 782003;
 }
 
 .infomation
