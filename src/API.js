@@ -14,13 +14,13 @@ export const Header  = {
 
 export const Data = [
     {
-        img: 'https://nguyenvtrung.github.io/ocmygu/access/images/oc_vit.jpg',
+        img: 'https://media.cooky.vn/recipe/g2/16473/s800x500/recipe16473-635874953141267175.jpg',
         name: 'Ốc vặn',
         price: '20000',
         donvi: "dia"
       },
       {
-        img: 'https://nguyenvtrung.github.io/ocmygu/access/images/oc_nhoi.jpg',
+        img: 'https://media.cooky.vn/recipe/g2/16473/s800x500/recipe16473-635874953141267175.jpg',
         name: 'Ốc nhồi',
         price: '140000',
         donvi: "kg"
@@ -32,7 +32,7 @@ export const Data = [
         donvi: "dia"
       },
       {
-        img: 'https://nguyenvtrung.github.io/ocmygu/access/images/hoaqua.jpg',
+        img: 'https://media.cooky.vn/recipe/g2/16473/s800x500/recipe16473-635874953141267175.jpg',
         name: 'Hoa quả',
         price: '20000',
         donvi: "dia"
